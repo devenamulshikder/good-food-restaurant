@@ -13,6 +13,31 @@
   padding: 21px 32px 21px 32px;
   border-style: none;
   margin-top: 32px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.recipe-name {
+  border-radius: 8px;
+
+  background: rgba(82, 195, 3, 0.15); /* Frame 9 */
+  position: static;
+  width: 187px;
+  height: 56px;
+  padding: 24px 10px 0 10px;
+  /* Inside Auto Layout */
+  margin: 24px 0px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
 }
 
 #hero {
@@ -60,6 +85,78 @@
 #hero .hero-content .description {
   opacity: 0.7;
   color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#card-box {
+  width: 1320px;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+#card-box .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+#card-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 691px;
+  margin: auto;
+}
+#card-box .card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card-box .card-box .card {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+#card-box .card {
+  width: 424px;
+  height: 522px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32;
+  padding: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+}
+
+#card-box .container .card .discount {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#card-box .container .card .short-description {
+  color: rgb(16, 16, 16);
   font-family: Work Sans;
   font-size: 18px;
   font-weight: 500;
