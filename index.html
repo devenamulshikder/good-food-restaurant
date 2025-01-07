@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
+    <div id="preloader">
+      <img src="./assets/jagyasini-singh-foodbyjag.gif" alt="Loading..." />
+    </div>
     <section id="hero">
       <div class="hero-content">
         <p class="subtitle">Savor the Flavors</p>
@@ -67,5 +70,23 @@
         <button class="btn">Watch All Sell</button>
       </div>
     </section>
+    <script>
+      // Wait until the DOM is fully loaded
+      document.addEventListener("DOMContentLoaded", function () {
+        // Add a delay before removing the preloader
+        setTimeout(function () {
+          const preloader = document.getElementById("preloader");
+          if (preloader) {
+            preloader.style.transition = "opacity 0.5s"; // Add a fade-out effect
+            preloader.style.opacity = "0"; // Fade out
+            setTimeout(() => {
+              preloader.style.display = "none"; // Remove after fading out
+            }, 500); // Match fade-out duration
+          }
+        }, 1000); // 3000ms = 3 seconds delay
+      });
+    </script>
+    
+    
   </body>
 </html>
